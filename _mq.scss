@@ -1,0 +1,22 @@
+@import '_variables';
+@import '_mixin';
+
+@media (min-width: 576px) {
+  .row .col-4 {
+    flex: 1 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .row .col-4 {
+    flex: 1 0 33.33%;
+    max-width: 33.33%;
+  }
+}
+
+@media (min-width: 992px) {
+  .black-section img {
+    max-width: 50%;
+  }
+}
